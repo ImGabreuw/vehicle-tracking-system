@@ -11,7 +11,6 @@ Este repositório contém o código-fonte do backend desenvolvido utilizando a e
 Antes de começar, certifique-se de atender aos seguintes pré-requisitos:
 
 - Docker e o plugin Compose instalados
-- 
 - Node.js versão 20 ou superior
 
 ## Configurações
@@ -32,33 +31,31 @@ Siga estas etapas para executar a aplicação:
 
 1. Abra um terminal e execute o seguinte comando para iniciar os containers Docker:
 
-    ```bash
-    $ docker compose up
-    ```
+   ```bash
+   $ docker compose up
+   ```
 
 2. Abra outro terminal e execute o seguinte comando para acessar o container Docker da aplicação:
 
-    ```bash
-    $ docker compose exec app bash
-    ```
+   ```bash
+   $ docker compose exec app bash
+   ```
 
 3. Dentro do container Docker, configure as dependências iniciais executando os comandos:
 
-    ```bash
-    $ npm install
-    $ npx prisma generate
-    ```
+   ```bash
+   $ npm install
+   $ npx prisma generate
+   ```
 
 4. Ainda dentro do container Docker, inicie a aplicação com o comando:
 
-    ```bash
-    $ npm run start:dev
-    ```
+   ```bash
+   $ npm run start:dev
+   ```
 
 5. Acesse a aplicação através do navegador, visitando o endereço http://localhost:3000/routes.
 
-## Testando a Aplicação
+## Testando a aplicação
 
 Você pode testar a aplicação usando o arquivo `api.http` localizado na raiz do projeto Nest.js. Este arquivo foi configurado para ser usado com o plugin [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) do VSCode. Ao enviar solicitações através deste arquivo, o Nest.js processará as requisições e exibirá mensagens no console.
-
-Este guia abrange os principais passos para configurar, executar e testar o backend desenvolvido com Nest.js. Sinta-se à vontade para explorar mais recursos da estrutura e personalizar o backend conforme suas necessidades.
