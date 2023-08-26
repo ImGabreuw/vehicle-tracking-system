@@ -1,10 +1,10 @@
-# Backend da interface de rastreamento - Next.js
+# Interface de rastreamento - Next.js
 
-Bem-vindo à documentação do backend da interface de rastreamento desenvolvido com Next.js. Este guia foi criado para fornecer informações abrangentes sobre como configurar, executar e testar a aplicação, além de destacar os pré-requisitos necessários para começar.
+Bem-vindo à documentação da interface de rastreamento desenvolvido com Next.js. Este guia foi criado para fornecer informações abrangentes sobre como configurar, executar e testar a aplicação, além de destacar os pré-requisitos necessários para começar.
 
 ## Descrição
 
-Este repositório contém o código-fonte do backend da interface de rastreamento desenvolvido utilizando a estrutura do Next.js. O backend é responsável por pré-renderizar ou renderizar a página web, além de realizar otimizações de performance (caching) e SEO.
+Este repositório contém o código-fonte da interface de rastreamento desenvolvido utilizando a estrutura do Next.js. O backend é responsável por pré-renderizar ou renderizar a página web, além de realizar otimizações de performance (caching) e SEO.
 
 ## Pré-requisitos
 
