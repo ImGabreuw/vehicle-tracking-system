@@ -18,6 +18,7 @@ export class RoutesController {
 
   @Post()
   async create(@Body() createRouteDto: CreateRouteDto) {
+    //DTO - Data Transfer Object
     const route = await this.routesService.create(createRouteDto);
     return new RouteSerializer(route);
   }

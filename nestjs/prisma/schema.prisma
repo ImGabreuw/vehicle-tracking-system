@@ -26,10 +26,11 @@ model Route {
 model RouteDriver {
   id         String   @id @default(auto()) @map("_id") @db.ObjectId
   route      Route    @relation(fields: [route_id], references: [id])
-  route_id   String   @unique @db.ObjectId
+  route_id   String   @db.ObjectId @unique
   points     Point[]
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
+  //status - iniciado, finalizado
 }
 
 type Point {
